@@ -41,6 +41,12 @@ fun HomeScreen(
 
         Spacer(modifier = Modifier.height(32.dp))
 
+        // Restaurants section
+        RestaurantsSection(restaurants = restaurants)
+
+        Spacer(modifier = Modifier.height(32.dp))
+
+
     }
 }
 
