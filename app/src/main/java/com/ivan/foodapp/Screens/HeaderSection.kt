@@ -41,7 +41,7 @@ fun HeaderSection(
             )
             Spacer(modifier = Modifier.width(12.dp))
             Text(
-                text = "Hola, $userName",
+                text = "Hi, $userName",
                 style = MaterialTheme.typography.headlineMedium,
                 fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.onBackground
@@ -52,14 +52,14 @@ fun HeaderSection(
             onClick = onLogout,
             modifier = Modifier
                 .background(
-                    MaterialTheme.colorScheme.errorContainer,
+                    MaterialTheme.colorScheme.background,
                     RoundedCornerShape(8.dp)
                 )
         ) {
             Icon(
                 imageVector = Icons.Default.ExitToApp,
-                contentDescription = "Cerrar sesión",
-                tint = MaterialTheme.colorScheme.onErrorContainer
+                contentDescription = "Sign Out",
+                tint = MaterialTheme.colorScheme.errorContainer
             )
         }
     }

@@ -36,6 +36,11 @@ fun HomeScreen(
 
         Spacer(modifier = Modifier.height(24.dp))
 
+        // Categories section
+        CategoriesSection(categories = categories)
+
+        Spacer(modifier = Modifier.height(32.dp))
+
     }
 }
 
