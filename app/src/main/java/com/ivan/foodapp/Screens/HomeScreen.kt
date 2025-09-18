@@ -46,6 +46,11 @@ fun HomeScreen(
 
         Spacer(modifier = Modifier.height(32.dp))
 
+        // Recommended foods section
+        RecommendedFoodsSection(foods = recommendedFoods)
+
+        Spacer(modifier = Modifier.height(16.dp))
+
 
     }
 }
